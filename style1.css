@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+
+}
+
+.TrafficLight{
+    height: 340px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    
+}
+#Red{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px;
+    
+}
+#Yellow{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 10px;
+}
+#Green{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 10px;
+}
